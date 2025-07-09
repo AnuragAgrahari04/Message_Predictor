@@ -27,22 +27,32 @@ A machine learning-based application that predicts the intent or category of a g
 
 ---
 
-## 🛠️ Installation
-
-### 🔗 Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/AnuragAgrahari04/Message_Predictor.git
 cd Message_Predictor
 ```
 
-### 📦 Install dependencies
+### 2. Set Up a Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+### 3. Install the Required Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
+### 4. Streamlit Run
+
+```bash
+streamlit run app.py
+```
+
 
 ## 📂 Project Structure
 
@@ -58,32 +68,6 @@ Message_Predictor/
 └── README.md           # Project documentation
 ```
 
----
-
-## 💬 Usage
-
-### ⚙️ Train the Model
-
-```bash
-python train.py
-```
-
-### 📩 Predict a Message
-
-```bash
-python predict.py --message "Hello, can you help me with my order?"
-```
-
----
-
-## 📊 Example Output
-
-```
-Input: "Please verify my OTP"
-Predicted Category: Authentication
-```
-
----
 
 ## 📈 Evaluation
 
@@ -94,14 +78,7 @@ Predicted Category: Authentication
 | Recall       | 0.92  |
 | F1 Score     | 0.91  |
 
----
 
-## 📚 Dataset
-
-- Source: [Add link if public]
-- Format: CSV with `["message", "label"]` columns
-
----
 
 
 
